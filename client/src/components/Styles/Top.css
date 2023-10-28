@@ -1,0 +1,25 @@
+.top{
+    color: #9A9A9A; 
+    font-family: 'Oxygen';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700; 
+    background-color: #E3E3E3;
+    display: flex;
+    width: 100%;
+    padding: 8px 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+} 
+.stick{
+    position: sticky;
+    top: 0; 
+}
+
+@media only screen and (max-width: 768px){
+    .top{
+        font-size: 10px;
+        height: 24px;
+    }
+}

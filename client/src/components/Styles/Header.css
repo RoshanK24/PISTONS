@@ -1,0 +1,74 @@
+.search{
+    border-radius: 50px;
+    border: 2px solid black;
+    height: 30px;
+    width: 220px;
+}
+.searchbtn{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 30px;
+}
+.closelogo{
+    height: 22px;
+}
+.pistonslogo{
+    height: 23px;
+}
+.navbar ul li{
+    margin: 0 10px 0 10px;
+}
+.navbar ul li a {
+    font-weight: bold;
+    color: black;
+}
+.cartlogo{
+    height: 21px;
+}
+.searchlogo{
+    height: 22px;
+}
+.barslogo{
+    height: 25px;
+}
+
+.nav1{
+    position: sticky;
+    top: 38.5px;
+    z-index: 10;
+    height: 70px;
+    background-color: #fff !important;
+}
+.navbar-toggler{
+    border: none;
+}
+
+
+.ham{
+    width: 254px;
+    height: 300px;
+    background-color: white !important;
+}
+.ham ul{ 
+    width: 138px; 
+    padding: 10px 0px; 
+    gap: 19px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .bardiv{
+        display: none;
+    }
+    .ham{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    .nav1{
+        height: 54px;
+    }
+}
